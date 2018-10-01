@@ -5,6 +5,7 @@
 //  Created by TerAdmin on 10/1/18.
 //  Copyright © 2018 Ernesto Colmenarez. All rights reserved.
 //
+// swiftlint:disable line_length
 
 import XCTest
 
