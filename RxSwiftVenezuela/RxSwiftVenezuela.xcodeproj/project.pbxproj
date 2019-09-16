@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0768441725F3AC3E09B63FF8 /* Pods_RxSwiftVenezuela_Tests_RxSwiftVenezuelaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BDDF8CADC5B40E0FCED76F /* Pods_RxSwiftVenezuela_Tests_RxSwiftVenezuelaUITests.framework */; };
+		74846E1B23301AF20045D29F /* patterns.solid.OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846E1723301AF20045D29F /* patterns.solid.OCP.swift */; };
+		74846E1C23301AF20045D29F /* patterns.solid.ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846E1823301AF20045D29F /* patterns.solid.ISP.swift */; };
+		74846E1D23301AF20045D29F /* patterns.solid.LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846E1923301AF20045D29F /* patterns.solid.LSP.swift */; };
+		74846E1E23301AF20045D29F /* patterns.solid.DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846E1A23301AF20045D29F /* patterns.solid.DIP.swift */; };
+		74846E2223301C3B0045D29F /* patterns.solid.SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74846E2123301C3B0045D29F /* patterns.solid.SRP.swift */; };
 		8090F66DE5A0CB614021708C /* Pods_RxSwiftVenezuela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA338D99ED33C1AE0C0301AB /* Pods_RxSwiftVenezuela.framework */; };
 		891C26031DCE6BC4A5FD1A61 /* Pods_RxSwiftVenezuela_Tests_RxSwiftVenezuelaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5206727A3B0CF4422C47FD47 /* Pods_RxSwiftVenezuela_Tests_RxSwiftVenezuelaTests.framework */; };
 		957798BD21627547003ECB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957798BC21627547003ECB02 /* AppDelegate.swift */; };
@@ -44,6 +49,11 @@
 		5206727A3B0CF4422C47FD47 /* Pods_RxSwiftVenezuela_Tests_RxSwiftVenezuelaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftVenezuela_Tests_RxSwiftVenezuelaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B83243610189795FA2D746 /* Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaUITests/Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		59508F56769FC02C85150E89 /* Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaTests/Pods-RxSwiftVenezuela-Tests-RxSwiftVenezuelaTests.release.xcconfig"; sourceTree = "<group>"; };
+		74846E1723301AF20045D29F /* patterns.solid.OCP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patterns.solid.OCP.swift; sourceTree = "<group>"; };
+		74846E1823301AF20045D29F /* patterns.solid.ISP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patterns.solid.ISP.swift; sourceTree = "<group>"; };
+		74846E1923301AF20045D29F /* patterns.solid.LSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patterns.solid.LSP.swift; sourceTree = "<group>"; };
+		74846E1A23301AF20045D29F /* patterns.solid.DIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patterns.solid.DIP.swift; sourceTree = "<group>"; };
+		74846E2123301C3B0045D29F /* patterns.solid.SRP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patterns.solid.SRP.swift; sourceTree = "<group>"; };
 		956267894EAE2F180C492698 /* Pods_RxSwiftVenezuelaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftVenezuelaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		957798B921627547003ECB02 /* RxSwiftVenezuela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftVenezuela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957798BC21627547003ECB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +126,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		74846E1523301A5A0045D29F /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				74846E1623301A7C0045D29F /* SOLID */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		74846E1623301A7C0045D29F /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				74846E2123301C3B0045D29F /* patterns.solid.SRP.swift */,
+				74846E1A23301AF20045D29F /* patterns.solid.DIP.swift */,
+				74846E1823301AF20045D29F /* patterns.solid.ISP.swift */,
+				74846E1923301AF20045D29F /* patterns.solid.LSP.swift */,
+				74846E1723301AF20045D29F /* patterns.solid.OCP.swift */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
 		957798B021627547003ECB02 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +171,7 @@
 		957798BB21627547003ECB02 /* RxSwiftVenezuela */ = {
 			isa = PBXGroup;
 			children = (
+				74846E1523301A5A0045D29F /* DesignPatterns */,
 				957798BC21627547003ECB02 /* AppDelegate.swift */,
 				957798BE21627547003ECB02 /* ViewController.swift */,
 				957798C021627547003ECB02 /* Main.storyboard */,
@@ -391,8 +422,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74846E1E23301AF20045D29F /* patterns.solid.DIP.swift in Sources */,
+				74846E1D23301AF20045D29F /* patterns.solid.LSP.swift in Sources */,
 				957798BF21627547003ECB02 /* ViewController.swift in Sources */,
+				74846E2223301C3B0045D29F /* patterns.solid.SRP.swift in Sources */,
+				74846E1B23301AF20045D29F /* patterns.solid.OCP.swift in Sources */,
 				957798BD21627547003ECB02 /* AppDelegate.swift in Sources */,
+				74846E1C23301AF20045D29F /* patterns.solid.ISP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
